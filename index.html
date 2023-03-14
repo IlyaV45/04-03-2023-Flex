@@ -1,45 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./Assets/reset.css">
-    <link rel="stylesheet" href="./Assets/css/style.css">
-</head>
-<body>
-    <ul class="events-list">
-        <li class="event">
-            <h2 class="event-name">
-                Lorem ipsum dolor sit.
-                <h3 class="event-date">09.03.2023</h3>
-            </h2>
-        </li>
-        <li class="event">
-            <h2 class="event-name">
-                Facilis quo ratione alias?
-                <h3 class="event-date">09.03.2023</h3>
-            </h2>
-        </li>
-        <li class="event">
-            <h2 class="event-name">
-                Voluptas deserunt pariatur corporis!
-                <h3 class="event-date">09.03.2023</h3>
-            </h2>
-        </li>
-        <li class="event">
-            <h2 class="event-name">
-                Voluptatibus aliquid iusto fuga!
-                <h3 class="event-date">09.03.2023</h3>
-            </h2>
-        </li>
-        <li class="event">
-            <h2 class="event-name">
-                Fugiat et dignissimos sint.
-                <h3 class="event-date">09.03.2023</h3>
-            </h2>
-        </li>
-    </ul>  
-</body>
+    <link rel="stylesheet" href="./Assets/reset.css" />
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+  </head>
+  <body>
+    <section class="cards-container">
+      <h1>users cards</h1>
+      <div class="flex-wrapper">
+        <article class="user-card">
+          <section class="user-info">
+            <header class="user-header">
+              <img
+                class="user-avatar"
+                src="./Assets/Images/Cat_August_2010-4.jpg"
+                alt=""
+              />
+              <h2 class="user-name">brad pitt</h2>
+              <address class="user-address">
+                California, <span>usa</span>.
+              </address>
+            </header>
+            <div class="container-btn">
+              <a class="btn follow" href="">follow</a>
+              <a class="btn message" href="">send message</a>
+            </div>
+            <p class="user-discription">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </section>
+          <footer>
+            <ul class="social-list">
+              <li><a class="social-list__item fb" href="https://uk-ua.facebook.com/"></a></li>
+              <li><a class="social-list__item twitter" href="https://twitter.com/?lang=uk"></a></li>
+              <li><a class="social-list__item google" href="https://mail.google.com/mail/u/0/#inbox"></a></li>
+            </ul>
+          </footer>
+        </article>
+      </div>
+    </section>
+  </body>
 </html>
