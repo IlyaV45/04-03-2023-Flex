@@ -5,43 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./Assets/reset.css" />
+    <!-- <link rel="stylesheet" href="./Assets/reset.css" /> -->
     <link rel="stylesheet" href="./Assets/css/style.css" />
   </head>
   <body>
-    <section class="cards-container">
-      <h1>users cards</h1>
-      <div class="flex-wrapper">
-        <article class="user-card">
-          <section class="user-info">
-            <header class="user-header">
-              <img
-                class="user-avatar"
-                src="./Assets/Images/Cat_August_2010-4.jpg"
-                alt=""
-              />
-              <h2 class="user-name">brad pitt</h2>
-              <address class="user-address">
-                California, <span>usa</span>.
-              </address>
-            </header>
-            <div class="container-btn">
-              <a class="btn follow" href="">follow</a>
-              <a class="btn message" href="">send message</a>
-            </div>
-            <p class="user-discription">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-          </section>
-          <footer>
-            <ul class="social-list">
-              <li><a class="social-list__item fb" href="https://uk-ua.facebook.com/"></a></li>
-              <li><a class="social-list__item twitter" href="https://twitter.com/?lang=uk"></a></li>
-              <li><a class="social-list__item google" href="https://mail.google.com/mail/u/0/#inbox"></a></li>
-            </ul>
-          </footer>
-        </article>
-      </div>
-    </section>
+    <form class="form" action="" method="get">
+      <fieldset>
+        Personal info
+        <input
+          type="text"
+          name="login"
+          id="login"
+          placeholder="enter your login"
+          autofocus
+          required
+        />
+        <label for="password">enter your password</label>
+        <input type="password" name="password" id="password" />
+
+        <label>
+          <span>enter your email</span>
+          <input type="email" name="email" />
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Send message</legend>
+        <textarea name="message" placeholder="enter your message"></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>checkbox</legend>
+        <label>
+          <input type="checkbox" name="langpr" value="js" checked />
+          javascript
+        </label>
+        <label>
+          <input type="checkbox" name="langpr" value="python" />
+          python </label
+        ><label>
+          <input type="checkbox" name="langpr" value="php" />
+          php
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>radio</legend>
+        <label>
+          <input type="radio" name="lang" value="ua" checked />
+          ua
+        </label>
+        <label>
+          <input type="radio" name="lang" value="fr" />
+          fr </label
+        ><label>
+          <input type="radio" name="lang" value="en" />
+          en
+        </label>
+      </fieldset>
+
+      <!-- <input type="submit" value="send"> -->
+      <button type="submit" disabled>send</button>
+      <button type="reset">reset</button>
+    </form>
   </body>
 </html>

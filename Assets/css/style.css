@@ -1,5 +1,6 @@
 :root{
     --size-avatar: 120px;
+    --space-size: 10px;
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -13,113 +14,30 @@ a{
 img{
     width: 100%;
 }
-.cards-container{
-    margin: auto;
-}
-.flex-wrapper{
-   display: flex; 
-   justify-content: space-around; 
-}
-.user-card{
+.form{
+    /* display: flex;
+    flex-direction: column; */
+
+    max-width: 400px;
+    width: 95%;
     min-width: 300px;
-    width: 80%;
-    max-width: 500px;
-    flex: 0 0 calc(4*var(--size-avatar));
-    padding-top: calc(1.5*var(--size-avatar));
-    border: 1px solid grey;
-    background-color: teal;
-    text-align: center;
-    
-}
-.user-info{
-    background-color: white;
-}
 
-.user-avatar{
-    width: var(--size-avatar);
-    height: var(--size-avatar);
-    margin-top: calc(-0.5*var(--size-avatar));
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: top;
-}
-.user-name{
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-size: 150%;
-}
-.user-address{
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-size: 150%;
-}
-.user-address::before{
-    content: "\0040";
-}
-.user-header, 
-.container-btn{
-    text-transform: capitalize;
-}
-span{
-    text-transform: uppercase;
-}
-.container-btn{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    padding: 20px;
-    border-bottom: 1px solid grey;
-    border-top: 1px solid grey;
-}
-.btn{
-    padding: 2px;
-    border: 2px solid teal;
-    margin: 5px;
-    border-radius: 5px;
-}
-.follow{
-    /* padding: 2px;
-    border: 2px solid green;
-    border-radius: 5px; */
-    background-color: green;
-}
-.message{
-    /* padding: 2px;
-    border: 2px solid teal;
-    margin: 5px;
-    border-radius: 5px; */
-    background-color: teal;
-}
-.user-discription{
-    padding: 30px 15px;
-    font-size: 150%;
-    font-style: italic;
-    
-}
-.social-list{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: var(--space-size);
+    margin: auto;
 
+    background-color: antiquewhite;
 }
-/* .social-list > li{
-    display: inline-block;
-    padding: 20px 10px;
-} */
-.social-list__item{
-    display: block;
-    width: 30px;
-    height: 30px;
-    margin: 20px 10px;
+::placeholder{
+    font-family: sans-serif;
+    font-size: 0.9rem;
 }
-.fb{
-    background: url("../Images/facebook.svg");
-    /* background-size: cover; */
-    fill: blue;
+fieldset{
+    display: flex;
+    flex-direction: column;
 }
-.twitter{
-    background: url("../Images/twitter.svg");
+input{
+    border: 4px dotted pink;
 }
-.google{
-    background: url("../Images/email-box.svg");
+input:focus{    
+    outline-color: coral;  
 }
