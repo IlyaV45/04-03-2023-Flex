@@ -1,14 +1,24 @@
-:root{
+@charset 'UTF-8';
+/* @import './../reset.css';
+/* @import url(./../reset.css); */
+/* @import './font.css'; */ */
+
+    @import './../css/print.css' print;
+    @import './../css/screen.css' screen;
+    @import './../css/common.css' all;
+
+
+
+
+/* :root{
     --size-avatar: 120px;
     --space-size: 10px;
     font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Chivo Mono', monospace;
+    font-weight: 700;
 }
 *{
     box-sizing: border-box;
-}
-body{
-    background-color: cadetblue;
 }
 a{
     color: inherit;
@@ -17,87 +27,28 @@ a{
 img{
     width: 100%;
 }
-section{
-    width: 47%;
-    display: flex;
-    flex-direction: column;
-    margin-left: 339px;
-    text-align: center;
-    background-color: aliceblue;
-    overflow: hidden;
-}
-header{
-     display: inline-block;
-    position: relative;
-    color: black; 
-}
-header::after{
-    content: "";
-    position: absolute;
-    margin-left: 5px;
-    width: 35%;
-    height: 2px;
-    top: 50%;
-    background: grey;
-    
-}
-header::before{
-    content: "";
-    position: absolute;
-    
-    width: 35%;
-    height: 2px;
-    left: 50px;
-    top: 50%;
-    background: grey; 
-}
-p{
-    color: darkgray;
-}
-.form{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content:space-around;
-    max-width: 600px;
-    width: 95%;
-    min-width: 400px;
-    height: 700px;
-    
+/* p{
+    color: #ccc;
 
-    padding: var(--space-size);
-    margin: auto;
+    padding: 1em;
+    font-size: 1.2rem;
+    line-height: 1.2em;
+}
+h1{
+    color: teal;
 
-    background-color: aliceblue;
-}
-::placeholder{
-    font-family: sans-serif;
-    font-size: 0.9rem;
-}
-fieldset{
-    display: flex;
-    flex-direction: column;
-}
-.sign{
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+
     text-align: center;
-    color: white;
 }
-input{
-    margin: 20px;
-    padding: 20px;
-    text-align: left;
-}
-.button{
-    width: 84%;
-    height: 10%;
-    margin-left: 20px;
-    background-color: green;
-    font-size: x-large;
-    color: aliceblue;
-}
-.sign_in{
-    border-bottom: 1px solid rgb(22, 20, 20);
-}
-.terms{
-    color: green;
-}
+h2{
+    margin-top: 1em;
+    color: dimgray;
+
+    font-size: 1.8rem;
+    font-style: italic;
+
+    text-align: center;
+    text-transform: uppercase;
+} */ */
