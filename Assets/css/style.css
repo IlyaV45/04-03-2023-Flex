@@ -1,16 +1,5 @@
-@charset 'UTF-8';
-/* @import './../reset.css';
-/* @import url(./../reset.css); */
-/* @import './font.css'; */ */
-/* 
-    @import './../css/print.css' print;
-    @import './../css/screen.css' screen;
-    @import './../css/common.css' all; */
 
-
-
-
-/* :root{
+:root{
     --size-avatar: 120px;
     --space-size: 10px;
     font-size: 18px;
@@ -27,28 +16,11 @@ a{
 img{
     width: 100%;
 }
-/* p{
-    color: #ccc;
-
-    padding: 1em;
-    font-size: 1.2rem;
-    line-height: 1.2em;
+p{
+    text-indent: 1rem;
 }
-h1{
-    color: teal;
 
-    font-family: 'Pacifico', cursive;
-    font-size: 3rem;
-
-    text-align: center;
-}
 h2{
-    margin-top: 1em;
-    color: dimgray;
-
-    font-size: 1.8rem;
-    font-style: italic;
-
     text-align: center;
-    text-transform: uppercase;
-} */ */
+text-transform: uppercase;
+}
