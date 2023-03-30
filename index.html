@@ -27,6 +27,14 @@
         
         <article class="article">
           <h2>title h2</h2>
+          <picture>
+            <source srcset="./Assets/Images/dog-w600.webp" media="(max-width: 576px)" type="image/webp">
+            <source srcset="./Assets/Images/dog-w600.jpg" media="(max-width: 576px)>
+            <source srcset="./Assets/Images/dog.webp" media="(min-width: 992px) and (max-width: 1200px)" type="image/webp">
+            <source srcset="./Assets/Images/dog.jpg" media="(min-width: 992px) and )(min-resolution: 400dpi)" >
+
+          <img class="article__img" src="./Assets/Images/dog-w1000.jpg" alt="dog">
+          </picture>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Perspiciatis rem cupiditate quod omnis, sint aliquid deleniti
