@@ -19,8 +19,7 @@
     font-size: 2rem;
 }
 .reclama{
-    display: none;
-    align-self: stretch;
+    /* align-self: stretch; */
     height: calc(var(--height) - 20);
     width: calc(var(--height)/13*8);
 }
@@ -37,7 +36,6 @@
         background-color: olive;
     }
     .reclama{
-        display: block;
         
         background-image: url(./../Images/Cat_August_2010-4.jpg);
         background-size: cover;
