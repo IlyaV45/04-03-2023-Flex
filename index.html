@@ -8,34 +8,51 @@
     <link rel="stylesheet" href="./Assets/css/reset.css" />
     <link rel="stylesheet" href="./Assets/css/font.css" />
     <link rel="stylesheet" href="./Assets/css/style.css" />
-    <link rel="stylesheet" href="./Assets/css/custom-grid.css">
-    <link rel="stylesheet" href="./Assets/css/header.css">
-    <link rel="stylesheet" href="./Assets/css/section.css">
-    <link rel="stylesheet" href="./Assets/css/article.css">
-    
+    <link rel="stylesheet" href="./Assets/css/custom-grid.css" />
+    <link rel="stylesheet" href="./Assets/css/header.css" />
+    <link rel="stylesheet" href="./Assets/css/section.css" />
+    <link rel="stylesheet" href="./Assets/css/article.css" />
+    <link rel="stylesheet" href="./Assets/css/wrapper.css" />
   </head>
   <body>
     <header class="header">
       <a href="" class="logo">logo</a>
       <a href="" class="phone">123-456-789</a>
-      <div class="reclama hide show-lg"> 
+      <div class="reclama hide show-lg">
         <!-- <img src="./Assets/Images/Cat_August_2010-4.jpg" alt="">  -->
       </div>
     </header>
     <main class="container">
       <h1>title h1</h1>
       <section class="section row">
-        
-        <article class="article col-12 col-md-6">
+        <article class="article col-12">
           <h2>title h2</h2>
-          <picture>
-            <source srcset="./Assets/Images/dog-w600.webp" media="(max-width: 576px)" type="image/webp">
-            <source srcset="./Assets/Images/dog-w600.jpg" media="(max-width: 576px)>
-            <source srcset="./Assets/Images/dog.webp" media="(min-width: 992px) and (max-width: 1200px)" type="image/webp">
-            <source srcset="./Assets/Images/dog.jpg" media="(min-width: 992px) and )(min-resolution: 400dpi)" >
+          <div class="wrapper">
+            <picture>
+              <source
+                srcset="./Assets/Images/dog-w600.webp"
+                media="(max-width: 576px)"
+                type="image/webp"
+              />
+              <source srcset="./Assets/Images/dog-w600.jpg" media="(max-width:
+              576px)>
+              <source
+                srcset="./Assets/Images/dog.webp"
+                media="(min-width: 992px) and (max-width: 1200px)"
+                type="image/webp"
+              />
+              <source
+                srcset="./Assets/Images/dog.jpg"
+                media="(min-width: 992px) and )(min-resolution: 400dpi)"
+              />
 
-          <img class="article__img" src="./Assets/Images/dog-w1000.jpg" alt="dog">
-          </picture>
+              <img
+                class="article__img"
+                src="./Assets/Images/dog-w1000.jpg"
+                alt="dog"
+              />
+            </picture>
+          </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Perspiciatis rem cupiditate quod omnis, sint aliquid deleniti
@@ -51,12 +68,28 @@
         <article class="article col-12 col-sm-6">
           <h2>title h2</h2>
           <picture>
-            <source srcset="./Assets/Images/dog-w600.webp" media="(max-width: 576px)" type="image/webp">
-            <source srcset="./Assets/Images/dog-w600.jpg" media="(max-width: 576px)>
-            <source srcset="./Assets/Images/dog.webp" media="(min-width: 992px) and (max-width: 1200px)" type="image/webp">
-            <source srcset="./Assets/Images/dog.jpg" media="(min-width: 992px) and )(min-resolution: 400dpi)" >
+            <source
+              srcset="./Assets/Images/dog-w600.webp"
+              media="(max-width: 576px)"
+              type="image/webp"
+            />
+            <source srcset="./Assets/Images/dog-w600.jpg" media="(max-width:
+            576px)>
+            <source
+              srcset="./Assets/Images/dog.webp"
+              media="(min-width: 992px) and (max-width: 1200px)"
+              type="image/webp"
+            />
+            <source
+              srcset="./Assets/Images/dog.jpg"
+              media="(min-width: 992px) and )(min-resolution: 400dpi)"
+            />
 
-          <img class="article__img" src="./Assets/Images/dog-w1000.jpg" alt="dog">
+            <img
+              class="article__img"
+              src="./Assets/Images/dog-w1000.jpg"
+              alt="dog"
+            />
           </picture>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -73,12 +106,28 @@
         <article class="article col-12 col-sm-6 col-md-4 hide show-lg">
           <h2>qwerty</h2>
           <picture>
-            <source srcset="./Assets/Images/dog-w600.webp" media="(max-width: 576px)" type="image/webp">
-            <source srcset="./Assets/Images/dog-w600.jpg" media="(max-width: 576px)>
-            <source srcset="./Assets/Images/dog.webp" media="(min-width: 992px) and (max-width: 1200px)" type="image/webp">
-            <source srcset="./Assets/Images/dog.jpg" media="(min-width: 992px) and )(min-resolution: 400dpi)" >
+            <source
+              srcset="./Assets/Images/dog-w600.webp"
+              media="(max-width: 576px)"
+              type="image/webp"
+            />
+            <source srcset="./Assets/Images/dog-w600.jpg" media="(max-width:
+            576px)>
+            <source
+              srcset="./Assets/Images/dog.webp"
+              media="(min-width: 992px) and (max-width: 1200px)"
+              type="image/webp"
+            />
+            <source
+              srcset="./Assets/Images/dog.jpg"
+              media="(min-width: 992px) and )(min-resolution: 400dpi)"
+            />
 
-          <img class="article__img" src="./Assets/Images/dog-w1000.jpg" alt="dog">
+            <img
+              class="article__img"
+              src="./Assets/Images/dog-w1000.jpg"
+              alt="dog"
+            />
           </picture>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -95,122 +144,28 @@
         <article class="article col-12 col-sm-6 col-md-4">
           <h2>title h2</h2>
           <picture>
-            <source srcset="./Assets/Images/dog-w600.webp" media="(max-width: 576px)" type="image/webp">
-            <source srcset="./Assets/Images/dog-w600.jpg" media="(max-width: 576px)>
-            <source srcset="./Assets/Images/dog.webp" media="(min-width: 992px) and (max-width: 1200px)" type="image/webp">
-            <source srcset="./Assets/Images/dog.jpg" media="(min-width: 992px) and )(min-resolution: 400dpi)" >
+            <source
+              srcset="./Assets/Images/dog-w600.webp"
+              media="(max-width: 576px)"
+              type="image/webp"
+            />
+            <source srcset="./Assets/Images/dog-w600.jpg" media="(max-width:
+            576px)>
+            <source
+              srcset="./Assets/Images/dog.webp"
+              media="(min-width: 992px) and (max-width: 1200px)"
+              type="image/webp"
+            />
+            <source
+              srcset="./Assets/Images/dog.jpg"
+              media="(min-width: 992px) and )(min-resolution: 400dpi)"
+            />
 
-          <img class="article__img" src="./Assets/Images/dog-w1000.jpg" alt="dog">
-          </picture>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perspiciatis rem cupiditate quod omnis, sint aliquid deleniti
-            laboriosam. Cum, beatae esse alias dolorum provident, necessitatibus
-            nulla est veritatis culpa ipsa ut! Obcaecati repudiandae, illo id
-            nostrum tempora, molestias fugiat ab harum dolores nam et reiciendis
-            maxime. Laboriosam, nostrum similique natus amet perferendis eaque
-            est beatae voluptatum voluptates officia, optio cumque obcaecati
-            veritatis reiciendis vitae enim eos voluptatibus? Accusamus quod
-            tempore voluptatum!
-          </p>
-        </article>
-        <article class="article col-12 col-sm-6 col-md-4">
-          <h2>title h2</h2>
-          <picture>
-            <source srcset="./Assets/Images/dog-w600.webp" media="(max-width: 576px)" type="image/webp">
-            <source srcset="./Assets/Images/dog-w600.jpg" media="(max-width: 576px)>
-            <source srcset="./Assets/Images/dog.webp" media="(min-width: 992px) and (max-width: 1200px)" type="image/webp">
-            <source srcset="./Assets/Images/dog.jpg" media="(min-width: 992px) and )(min-resolution: 400dpi)" >
-
-          <img class="article__img" src="./Assets/Images/dog-w1000.jpg" alt="dog">
-          </picture>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perspiciatis rem cupiditate quod omnis, sint aliquid deleniti
-            laboriosam. Cum, beatae esse alias dolorum provident, necessitatibus
-            nulla est veritatis culpa ipsa ut! Obcaecati repudiandae, illo id
-            nostrum tempora, molestias fugiat ab harum dolores nam et reiciendis
-            maxime. Laboriosam, nostrum similique natus amet perferendis eaque
-            est beatae voluptatum voluptates officia, optio cumque obcaecati
-            veritatis reiciendis vitae enim eos voluptatibus? Accusamus quod
-            tempore voluptatum!
-          </p>
-        </article>
-        <article class="article col-12 col-sm-6 col-md-4">
-          <h2>title h2</h2>
-          <picture>
-            <source srcset="./Assets/Images/dog-w600.webp" media="(max-width: 576px)" type="image/webp">
-            <source srcset="./Assets/Images/dog-w600.jpg" media="(max-width: 576px)>
-            <source srcset="./Assets/Images/dog.webp" media="(min-width: 992px) and (max-width: 1200px)" type="image/webp">
-            <source srcset="./Assets/Images/dog.jpg" media="(min-width: 992px) and )(min-resolution: 400dpi)" >
-
-          <img class="article__img" src="./Assets/Images/dog-w1000.jpg" alt="dog">
-          </picture>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perspiciatis rem cupiditate quod omnis, sint aliquid deleniti
-            laboriosam. Cum, beatae esse alias dolorum provident, necessitatibus
-            nulla est veritatis culpa ipsa ut! Obcaecati repudiandae, illo id
-            nostrum tempora, molestias fugiat ab harum dolores nam et reiciendis
-            maxime. Laboriosam, nostrum similique natus amet perferendis eaque
-            est beatae voluptatum voluptates officia, optio cumque obcaecati
-            veritatis reiciendis vitae enim eos voluptatibus? Accusamus quod
-            tempore voluptatum!
-          </p>
-        </article>
-        <article class="article col-12 col-sm-6 col-md-4">
-          <h2>title h2</h2>
-          <picture>
-            <source srcset="./Assets/Images/dog-w600.webp" media="(max-width: 576px)" type="image/webp">
-            <source srcset="./Assets/Images/dog-w600.jpg" media="(max-width: 576px)>
-            <source srcset="./Assets/Images/dog.webp" media="(min-width: 992px) and (max-width: 1200px)" type="image/webp">
-            <source srcset="./Assets/Images/dog.jpg" media="(min-width: 992px) and )(min-resolution: 400dpi)" >
-
-          <img class="article__img" src="./Assets/Images/dog-w1000.jpg" alt="dog">
-          </picture>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perspiciatis rem cupiditate quod omnis, sint aliquid deleniti
-            laboriosam. Cum, beatae esse alias dolorum provident, necessitatibus
-            nulla est veritatis culpa ipsa ut! Obcaecati repudiandae, illo id
-            nostrum tempora, molestias fugiat ab harum dolores nam et reiciendis
-            maxime. Laboriosam, nostrum similique natus amet perferendis eaque
-            est beatae voluptatum voluptates officia, optio cumque obcaecati
-            veritatis reiciendis vitae enim eos voluptatibus? Accusamus quod
-            tempore voluptatum!
-          </p>
-        </article>
-        <article class="article col-12 col-sm-6 col-md-4">
-          <h2>title h2</h2>
-          <picture>
-            <source srcset="./Assets/Images/dog-w600.webp" media="(max-width: 576px)" type="image/webp">
-            <source srcset="./Assets/Images/dog-w600.jpg" media="(max-width: 576px)>
-            <source srcset="./Assets/Images/dog.webp" media="(min-width: 992px) and (max-width: 1200px)" type="image/webp">
-            <source srcset="./Assets/Images/dog.jpg" media="(min-width: 992px) and )(min-resolution: 400dpi)" >
-
-          <img class="article__img" src="./Assets/Images/dog-w1000.jpg" alt="dog">
-          </picture>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perspiciatis rem cupiditate quod omnis, sint aliquid deleniti
-            laboriosam. Cum, beatae esse alias dolorum provident, necessitatibus
-            nulla est veritatis culpa ipsa ut! Obcaecati repudiandae, illo id
-            nostrum tempora, molestias fugiat ab harum dolores nam et reiciendis
-            maxime. Laboriosam, nostrum similique natus amet perferendis eaque
-            est beatae voluptatum voluptates officia, optio cumque obcaecati
-            veritatis reiciendis vitae enim eos voluptatibus? Accusamus quod
-            tempore voluptatum!
-          </p>
-        </article>
-        <article class="article col-12 col-sm-6 col-md-4">
-          <h2>title h2</h2>
-          <picture>
-            <source srcset="./Assets/Images/dog-w600.webp" media="(max-width: 576px)" type="image/webp">
-            <source srcset="./Assets/Images/dog-w600.jpg" media="(max-width: 576px)>
-            <source srcset="./Assets/Images/dog.webp" media="(min-width: 992px) and (max-width: 1200px)" type="image/webp">
-            <source srcset="./Assets/Images/dog.jpg" media="(min-width: 992px) and )(min-resolution: 400dpi)" >
-
-          <img class="article__img" src="./Assets/Images/dog-w1000.jpg" alt="dog">
+            <img
+              class="article__img"
+              src="./Assets/Images/dog-w1000.jpg"
+              alt="dog"
+            />
           </picture>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
